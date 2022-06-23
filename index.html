@@ -27,12 +27,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: eBusiness - v4.7.0
-  * Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
@@ -277,7 +272,7 @@
                 <div class="single-icon">
                   <i class="bi bi-phone"></i>
                   <p>
-                    Call: +1 5589 55488 55<br>
+                    Call:<a href="tel:9163837188"> 9163837188</a> <br>
                     <span>Monday-Friday (9am-5pm)</span>
                   </p>
                 </div>
@@ -289,8 +284,7 @@
                 <div class="single-icon">
                   <i class="bi bi-envelope"></i>
                   <p>
-                    Email: info@example.com<br>
-                    <span>Web: www.example.com</span>
+                    Email: <a href="mailto: abc@example.com"> abc@example.com</a><br>
                   </p>
                 </div>
               </div>
@@ -301,8 +295,8 @@
                 <div class="single-icon">
                   <i class="bi bi-geo-alt"></i>
                   <p>
-                    Location: A108 Adam Street<br>
-                    <span>NY 535022, USA</span>
+                    Location: B WING, 3ND FLOOR, MAHAKALI CAVES, ANDHERI EAST <br>
+                    <span>Mumbai, Maharashtra, 400093</span>
                   </p>
                 </div>
               </div>
@@ -314,7 +308,7 @@
             <div class="col-md-6">
               <!-- Start Map -->
             
-              <img src="assets/img/container-3857611_1920.jpg" alt="">
+              <img src="assets/img/pexels-rodolfo-quirós-2219024.jpg" alt="">
               <!-- End Map -->
             </div>
             <!-- End Google Map -->
@@ -357,7 +351,31 @@
     <div class="footer-area">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-6">
+            <div class="form contact-form">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6">
             <div class="footer-content">
               <div class="footer-head">
                 <div class="footer-logo">
@@ -367,54 +385,21 @@
                 <p>Ankit Traders always ensure that their client will get the best cement in cheap rate. Thats why Ankit Traders was able to expand its bussiness in very short time.</p>
                 <div class="footer-icons">
                   <ul>
-                    <li>
-                      <a href="#"><i class="bi bi-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="bi bi-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="bi bi-instagram"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="bi bi-linkedin"></i></a>
-                    </li>
+                    <p><span>Tel:</span> <a href="tel:9163837188">9163837188</a> </p>
+                    <p><span>Email:</span><a href="mailto: abc@example.com"> abc@example.com</a> </p>
+                    <p><span>Office:</span>  B WING, 3ND FLOOR, MAHAKALI CAVES, ANDHERI EAST
+                      Mumbai, Maharashtra, 400093</p>
+
                   </ul>
                 </div>
               </div>
             </div>
           </div>
           <!-- end single footer -->
-          <div class="col-md-4">
-            <div class="footer-content">
-              <div class="footer-head">
-                
-               
-              
-              </div>
-            </div>
-          </div>
+          
           <!-- end single footer -->
           
-          <div class="col-md-4">
-            <div class="footer-content">
-              <div class="footer-head">
-                
-                <div class="footer-contacts">
-                  <p><span>Tel:</span> +123 456 789</p>
-                  <p><span>Email:</span> contact@example.com</p>
-                  <p><span>Working Hours:</span> 9am-5pm</p>
-                </div>
-
-                <div class="footer-contacts">
-                  <p><span>Tel:</span> +123 456 789</p>
-                  <p><span>Email:</span> contact@example.com</p>
-                  <p><span>Working Hours:</span> 9am-5pm</p>
-                </div>
-              
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>

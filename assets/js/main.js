@@ -2,13 +2,13 @@
 (function() {
   "use strict";
 
-  document.onload = document.getElementById('popForm').style.display = 'block';
+  // document.onload = document.getElementById('popForm').style.display = 'block';
 
-  document.getElementById('closeIcon').addEventListener("click",()=>{
+  // document.getElementById('closeIcon').addEventListener("click",()=>{
     
-    document.getElementById('popForm').style.display = 'none';
+  //   document.getElementById('popForm').style.display = 'none';
 
-  })
+  // })
 
   /**
    * Easy selector helper function
